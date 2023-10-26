@@ -489,7 +489,7 @@ Tab:AddButton({
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "testing🥶",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
