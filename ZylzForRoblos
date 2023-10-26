@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Zylz", HidePremium = false, SaveConfig = true, ConfigFolder = "Zylz"})
+local Window = OrionLib:MakeWindow({Name = "ZylzHubV2.0.3", HidePremium = false, SaveConfig = true, ConfigFolder = "Zylz"})
 local Tab = Window:MakeTab({
 	Name = "BedWars",
 	Icon = "rbxassetid://4483345998",
@@ -487,4 +487,9 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
   	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Testing🥶",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
 })
